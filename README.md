@@ -1,1 +1,1 @@
-Build a Multiple PDF chat App with llama3 having a High speed Inference with Memory.
+Thi is a POC chatbot application using Groq API to process and analyze PDF documents. It is completely free to create, No OpenAI keys etc. Hope you like it!
