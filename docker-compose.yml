@@ -1,0 +1,10 @@
+version: '3'
+services:
+  docudialoguer:
+    image: docudialoguer:latest
+    build: ./app
+    command: chainlit run agent.py
+    volumes:
+      - ./DOCUDIALOGUERV1.1/:/app/demo_app
+    ports:
+      - 8000:8000
